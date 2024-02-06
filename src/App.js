@@ -6,7 +6,6 @@ import { Route, Routes } from 'react-router-dom';
 import GamesD from './components/DetailsLink/GamesD';
 import Navbar from './components/home/Navbar';
 import DealsD from './components/DetailsLink/DealsD';
-import Shoptv from './components/ShowTime/tvpages/Shoptv';
 import GymD from './components/DetailsLink/GymD';
 import Books from './components/DetailsLink/Books';
 import Product_1 from './components/ProductDetails/Gaming Acc/Product_1';
@@ -35,8 +34,7 @@ function App() {
         <Route path="/page2/:2" element={<Shoes/>} />
         
         <Route path= '/games' element={<GamesD />} />  
-        <Route path= '/deal' element={<DealsD />} /> 
-        <Route path= '/movie' element={<Shoptv />} /> 
+        <Route path= '/deal' element={<DealsD />} />  
         <Route path= '/book' element={<Books />} /> 
         <Route path= '/gym' element={<GymD/>}/>
         <Route path= '/mouse' element={<Product_1 />} /> 
