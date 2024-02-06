@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://shopeasyserver.vercel.app';
+const url = 'https://shopeasyserver.vercel.app/';
 
 export const authenticateLogin = async (user) => {
     try {
